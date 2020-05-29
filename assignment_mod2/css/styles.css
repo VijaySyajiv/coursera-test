@@ -1,0 +1,22 @@
+
+.row {
+  margin-bottom: 15px;
+
+}
+.row > div {
+  border: 3px solid red ;
+  background-color:#008080;
+  margin: 30px;
+  width: 27.33%;
+  height: 170px;
+  overflow:auto;
+}
+ol {
+  clear: both;
+}
+#title1{ 
+    border: 3px solid #908080 ;
+    background-color:white;
+    float: right;
+
+  }
