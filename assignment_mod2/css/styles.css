@@ -1,15 +1,18 @@
-
-.row {
-  margin-bottom: 15px;
-
+*{
+  box-sizing: border-box;
 }
+.row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 14px;
+}
+
+
 .row > div {
   border: 3px solid red ;
   background-color:#008080;
-  margin: 30px;
-  width: 27.33%;
-  height: 170px;
-  overflow:auto;
+  margin-right: 35px;
+  margin-bottom: 20px;
 }
 ol {
   clear: both;
