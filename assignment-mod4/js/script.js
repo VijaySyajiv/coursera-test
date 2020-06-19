@@ -1,15 +1,13 @@
-var message = "in global";
-console.log("global: message = " + message);
+(function () {
+	var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+	for (var i = 0; i < names.length; i++) {
+		  var firstLetter = names[i].charAt(0).toLowerCase();
+		  if (firstLetter === 'j') {
+		     goodByeSpeaker.speak(names[i]);
+		  } 
+		  else {
+		     helloSpeaker.speak(names[i]);
+		  }
+	}
 
-var a = function () {
-  var message = "inside a";
-  console.log("a: message = " + message);
-
-  function b () {
-    console.log("b: message = " + message); 
-  }
-
-  b();
-}
-
-a();
+})();
