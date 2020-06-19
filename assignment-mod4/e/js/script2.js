@@ -1,14 +1,11 @@
 (function (window) {
-  var johnGreeter = {};
-  johnGreeter.name = "John";
-  var greeting = "Hi ";
-  johnGreeter.sayHi = function () {
-    console.log(greeting + johnGreeter.name);
+  var helloSpeaker = {};
+  //johnGreeter.name = "John";
+  var greeting = "Goodbye ";
+  helloSpeaker.speak = function (name) {
+    console.log(greeting + name);
   }
 
-  window.johnGreeter = johnGreeter;
+  window.helloSpeaker = helloSpeaker;
 
 })(window);
-
-
-
